@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corrected HTML</title>
+</head>
+<body>
+  <div id="myDiv">
+    <p>This is some text.</p>
+  </div>
+  <script>
+    //Correct way to access the div, note the quotes around the id
+    let element = document.getElementById("myDiv");
+    element.innerHTML = "<h1>Modified</h1>";
+  </script>
+</body>
+</html>
