@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <div id="myDiv">
+    <p>This is some text.</p>
+  </div>
+  <script>
+    //Incorrect way to access the div, missing quotes around the id 
+    let element = document.getElementById(myDiv);
+    element.innerHTML = "<h1>Modified</h1>";
+  </script>
+</body>
+</html>
